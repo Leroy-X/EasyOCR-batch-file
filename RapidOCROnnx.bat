@@ -1,4 +1,6 @@
 @echo off
+REM 设置字符集编码为 UTF-8
+chcp 65001 > nul
 
 REM 跳转到批处理所在目录
 cd /d "%~dp0"
