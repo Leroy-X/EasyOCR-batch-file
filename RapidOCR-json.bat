@@ -16,7 +16,7 @@ if %errorlevel% neq 0 (
 REM 设置工作目录
 cd ".\RapidOCR-json"
 
-REM 运行 OCR，将剪贴板文件作为参数，去掉无效 json 内容，调用 jq 提取 text 字段的值并输出到 result.txt 文件
+REM 运行 OCR，将剪贴板文件作为参数，去掉无效 json 内容，使用 PowerShell 提取 text 字段的值并输出到 result.txt 文件
 RapidOCR-json.exe --image_path="clipboard" | findstr "{" | powershell -Command "$jsonObject = $input | ConvertFrom-Json; $jsonObject.data.text -replace '\r\n', '' | Out-File -FilePath '..\result.txt' -Encoding utf8"
 
 REM 回到当前目录
