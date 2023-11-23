@@ -34,3 +34,8 @@ The results will be automatically saved to the clipboard and opened using Notepa
 │      └─models
 │          │  ...
  ...
+
+
+Thanks to hiroi-sora and RapidAI for their contributions.
+https://github.com/hiroi-sora
+https://github.com/RapidAI
