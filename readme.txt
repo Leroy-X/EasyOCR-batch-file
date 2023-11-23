@@ -12,6 +12,7 @@ The results will be automatically saved to the clipboard and opened using Notepa
 ├─EasyOCR
 │  │  PaddleOCR-json.bat
 │  │  RapidOCR-json.bat
+│  │  RapidOCR-json-v4.bat
 │  │  RapidOCROnnx.bat
 │  │  readme.txt
 │  │
