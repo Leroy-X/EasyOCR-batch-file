@@ -35,6 +35,9 @@ The results will be automatically saved to the clipboard and opened using Notepa
 │          │  ...
  ...
 
-Thanks to hiroi-sora and RapidAI for their contributions.
+Project Address
+https://github.com/Leroy-X/EasyOCR-batch-file
+
+Thanks to hiroi-sora and RapidAI for their great work.
 https://github.com/hiroi-sora
 https://github.com/RapidAI
